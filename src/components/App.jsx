@@ -69,7 +69,7 @@ class App extends Component {
         <Section title="Directorio telefónico">
           <ContactForm onSubmit={this.addContact} />
         </Section>
-        
+
         <Section title="Contactos">
           <Filter value={filter} onChange={this.changeFilter} />
           <div className={style.allContacts}>Contactos: {contacts.length}</div>

@@ -4,15 +4,8 @@ import PropTypes from 'prop-types';
 
 const Filter = ({ value, onChange }) => (
   <div className={style.filter}>
-    <p>
-      Filter
-    </p>
-      <input
-        type="name"
-        value={value}
-        onChange={onChange}
-        
-        />
+    <p>Filter</p>
+    <input type="name" value={value} onChange={onChange} />
   </div>
 );
 

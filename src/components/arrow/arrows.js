@@ -21,11 +21,7 @@ function Dark() {
   return (
     <>
       <div className="header-right">
-        <div
-          className={`Dark ${theme}`}
-          id="Darkbutton"
-
-        >
+        <div className={`Dark ${theme}`} id="Darkbutton">
           <div style={style}>
             <input
               type="checkbox"
@@ -38,17 +34,11 @@ function Dark() {
             </label>
           </div>
         </div>
-        <div className="content_header">
-
-        </div>
+        <div className="content_header"></div>
       </div>
 
       <div className="header-top">
-        <div
-          className={`Dark ${theme}`}
-          id="Darkbutton"
-
-        >
+        <div className={`Dark ${theme}`} id="Darkbutton">
           <div style={style}>
             <input
               type="checkbox"
@@ -61,9 +51,7 @@ function Dark() {
             </label>
           </div>
         </div>
-        <div className="content_header-top">
-
-        </div>
+        <div className="content_header-top"></div>
       </div>
     </>
   );
